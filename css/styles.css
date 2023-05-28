@@ -593,25 +593,25 @@ border-color: var(--hover-focus-color);
   fill:var(--team-section-color);
 }
 .overlay{
-  position: absolute;
   line-height: 24px;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translate(100%);
   color: var(--team-section-color);
   background-color: var(--blue-text-color);
   padding: 32px 40px 32px;
-  
+  position: absolute;
+  overflow: auto;
+  transform: translateY(100%);
+
   transition: transform 500ms linear;
   }
   .wrapper-no-name{
   position: relative;
   overflow: hidden;
   }
-  .wrapper-no-name:hover.overlay,
-  .wrapper-no-name:focus.overlay{
+  .wrapper-no-name:focus.overlay,
+  .wrapper-no-name:hover.overlay{
   transform: translateY(0%);
-  
   }
