@@ -13,6 +13,7 @@
     --white-btn-color: #e7e9fc;
     --border-radius:#8e8f99;
     --radius-two : #31d0aa;
+    --transition-one: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 p,h1,h2,h3,h4,h5{
   margin: 0;;
@@ -46,7 +47,7 @@ body {
    padding-top: 24px;
    padding-bottom: 24px;
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transition-one);
 }
 .menu-link:hover,
  .menu-link:focus {
@@ -124,7 +125,7 @@ gap: 40px;
    padding-top: 24px ;
    padding-bottom: 24px;
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--transition-one);
 }
  .contact-link:hover,
  .contact-link:focus {
@@ -603,7 +604,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-svggg{
   fill:var(--team-section-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay{
   position: absolute;
