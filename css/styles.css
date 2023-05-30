@@ -367,9 +367,10 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 48px) / 3);
 }
 .team-no-img{
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),0px 1px 1px 0px rgba(46, 47, 66, 0.16),0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+background-color: var(--main-background-color);
 }
 .desc{
   width: calc((100% - 72px) / 4);
@@ -417,8 +418,11 @@ height: 600px;
 background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/img-name.jpg");
 background-repeat: no-repeat ;
 background-size: cover;
-background-position: center;
+align-content: center;
 justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
 }
 .worker-soc-list {
 display: flex;
