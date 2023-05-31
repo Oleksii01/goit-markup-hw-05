@@ -629,6 +629,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .wrapper-no-name:hover.overlay{
   transform: translateY(0%);
   }
+  .no-bank:hover .overlay,
+.no-bank:focus .overlay {
+    transform: translateY(0%);
+}
   .line::after{
     content: "";
     width: 100%;
@@ -647,4 +651,23 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .line{
   
+}
+/* Backdrop */
+.backdrop{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.modal{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 408px;
+  height: 584px;
+background-color: rgb(225, 203, 203);
+
 }
