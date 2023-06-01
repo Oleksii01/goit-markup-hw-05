@@ -648,7 +648,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
 /* Backdrop */
-/* .backdrop{
+.backdrop{
 position: fixed;
 left: 0;
 top: 0;
@@ -665,4 +665,4 @@ background-color: rgba(0, 0, 0, 0.5);
   height: 584px;
 background-color: rgb(225, 203, 203);
 
-} */
+}
