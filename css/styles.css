@@ -53,9 +53,11 @@ body {
   background-color: var(--hover-focus-color);
   border-radius: 2px;
   transition: var(--hover-focus-color);
-  color: #404bbf; 
+  }
+.current{
+  color: var(--hover-focus-color); 
 }
-.menu-item{
+  .menu-item{
   transition: var(--transition-one);
 }
 .menu-link {
