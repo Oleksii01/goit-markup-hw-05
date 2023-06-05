@@ -56,7 +56,7 @@ body {
   color: var(--hover-focus-color);
 }
 .current{
-  color: var(--hover-focus-color);
+  color: #404bbf;
 }
 .menu-item{
   transition: var(--transition-one);
@@ -280,9 +280,6 @@ background-color: var(--hover-focus-color);
 }
 .portfo-lio{
   transition: var(--transition-one);
-}
-.items{
-  transition: var(--transition-one),var(--transition-two),var(--transition-three),var(--transition-four);
 }
 .no-bank:hover,
 .no-bank:focus{
