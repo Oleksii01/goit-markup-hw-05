@@ -29,7 +29,7 @@ ul{
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;             
-   color: var(--text-color);
+    color: var(--text-color);
     background-color: var(--main-background-color);
     }
 .list{
@@ -64,13 +64,13 @@ color: var(--hover-focus-color);
 .menu-link {
   position: relative;
   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--title-color);
-   padding-top: 24px;
-   padding-bottom: 24px;
-   display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
   transition: var(--transition-one);
 }
 .menu-link:hover,
