@@ -53,8 +53,6 @@ body {
   background-color: var(--hover-focus-color);
   border-radius: 2px;
   transition: var(--hover-focus-color);
-  }
-.current{
   color: var(--hover-focus-color);
 }
 .menu-item{
