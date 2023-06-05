@@ -42,21 +42,6 @@ body {
   margin: 0px auto;
   border-top: none;
 }
-.current::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 4px;
-  left: 0;
-  bottom: -1px;
-  display: block;
-  background-color: var(--hover-focus-color);
-  border-radius: 2px;
-  transition: var(--hover-focus-color);
-  }
-.current{
-  color: var(--hover-focus-color); 
-}
   .menu-item{
   transition: var(--transition-one);
 }
@@ -71,6 +56,7 @@ body {
   padding-bottom: 24px;
   display: block;
   transition: var(--transition-one);
+
 }
 .menu-link:hover,
  .menu-link:focus {
@@ -92,7 +78,22 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   display: flex;
   gap: 40px;
 }
- /* ===============LOGO============== */
+.current::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  background-color: var(--hover-focus-color);
+  border-radius: 2px;
+  transition: var(--hover-focus-color);
+  }
+.current{
+  color: var(--hover-focus-color); 
+}
+/* ===============LOGO============== */
  .logo {
   font-family:"Raleway", sans-serif ;
   font-weight: 800;
