@@ -59,7 +59,6 @@ body {
 }
 .menu-item{
   transition: var(--transition-one);
-color: var(--hover-focus-color);
 }
 .menu-link {
   position: relative;
