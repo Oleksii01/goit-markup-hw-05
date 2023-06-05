@@ -177,7 +177,7 @@ gap: 40px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: var(--transition-two);
 }
-  .button-main:hover,
+.button-main:hover,
 .button-main:focus {
   background: var(--hover-focus-color);
   cursor: pointer;
