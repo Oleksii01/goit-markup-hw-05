@@ -180,7 +180,6 @@ gap: 40px;
 .button-main:hover,
 .button-main:focus {
   background: var(--hover-focus-color);
-  cursor: pointer;
   }
 .section-hero {
   background: var(--title-color);
@@ -246,12 +245,16 @@ gap: 40px;
    background-color: var(--main-background-color);
  }
 .portfolio-buttons:hover{
-  color: var(--main-background-color);
+color: var(--main-background-color);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08),0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 background-color: var(--hover-focus-color);
+border: 1px solid transparent 
 }
- .portfolio-buttons:focus{
-  color: var(--main-background-color);
- background-color: var(--hover-focus-color);
+.portfolio-buttons:focus{
+color: var(--main-background-color);
+background-color: var(--hover-focus-color);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08),0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+border: 1px solid transparent
 }
 .portfolio-buttons{  
   font-family: "Roboto",sans-serif;
@@ -266,16 +269,6 @@ background-color: var(--hover-focus-color);
   border: 1px solid var(--white-btn-color);
   padding: 12px 24px;
   transition: var(--transition-one),var(--transition-two),var(--transition-three),var(--transition-four);
-}
-.portfolio-buttons:hover{
-  border: 1px solid transparent 
-}
-.portfolio-buttons:focus{
-  border: 1px solid transparent 
-}
-.portfo-lio:hover,
-.portfo-lio:focus{
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08),0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .no-bank:hover,
 .no-bank:focus{
@@ -367,8 +360,7 @@ row-gap: 48px;
 }
 .text{
   margin-left: 16px;
- 
-}
+ }
 .revolution{
 padding: 32px 16px;
 border: 1px red;
@@ -591,12 +583,10 @@ transition: var(--transition-three),var(--transition-one);
 .search-icon:focus{
 color: var(--hover-focus-color);
 border-color: var(--hover-focus-color);
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /**<!-- section 5 --> ***/
 .section-no-icons{
   padding: 120px 0 120px;
-
 }
 /* .title-text{
 line: height 1.1;
@@ -611,12 +601,10 @@ border-color: var(--hover-focus-color);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-svgg{
- fill: currentColor;
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+fill: currentColor;
 }
 .img-svggg{
   fill:var(--team-section-color);
-  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay{
   position: absolute;
@@ -631,7 +619,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 24px;
   overflow: auto;
   transform: translateY(100%);
-  transition: transform 250ms linear;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   .wrapper-no-name{
